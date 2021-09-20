@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <script data-ad-client="ca-pub-5557788605135909" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <title>AuToCAD Course</title>    
+    <style>
+        body{
+            background-color: khaki;
+            
+        }
+        #posi{
+            position: relative;
+            top:150px;
+            left:20px;
+        }
+    </style>
+    
+    <script>
+        function check(){
+            var a = document.getElementById("password").value;
+            if(a==12345){
+                document.getElementById("result").innerHTML='Hi My Dear '+document.getElementById("name").value+'<br>'
+                +'We are Very much Happy to see Your Interest<br>'+'After Successful Completion of this Course You will Receive Certificate<br>'+'<a href="accourse.html">Proceed To Course</a><br>'+'';
+            }
+            else{
+                document.getElementById("result").innerHTML='PLEASE ENTER CORRECT CODE'; 
+            }
+        }
+        
+    </script>
+
+
+
+
+    </head>
+    <body>
+        <center></center>
+        <div id="posi">
+        
+           <center> Enter Your Name:<input type="text" id="name" style="width:15%; height:4%;"><br>
+            <br>
+            Enter Student Code:<input Type="password" id="password" style="width:15%; height:4%;"><br>
+            <br>
+            <button onclick="check()" id="button1">I'm Intrested in Learning</button>
+        </center>>
+    
+    <center><div id="result" style="color:brown; font-size:100%;font-family:fantasy;"></div>
+        <img src="images\acpic.png" width="20%"></center>
+    </div>
+    </body>
+    </html>
